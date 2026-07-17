@@ -24,9 +24,11 @@
                 <span class="text-xl font-bold text-slate-900">Limpieza Estrella</span>
             </div>
             <div class="hidden md:flex space-x-6 font-medium">
-                <a href="#inicio" class="text-blue-600 font-semibold">Inicio</a>
-                <a href="/servicios.html" class="hover:text-blue-600 transition">Servicios</a>
-                <a href="#testimonios" class="hover:text-blue-600 transition">Testimonios</a>
+                <!-- Enlace Inicio con clase 'active' (Texto azul y semibold) -->
+                <a href="#inicio" class="text-blue-600 font-semibold transition">Inicio</a>
+                <!-- Enlace Servicios actualizado para abrir en la misma pestaña -->
+                <a href="servicios.html" class="hover:text-blue-600 text-slate-600 transition">Servicios</a>
+                <a href="#testimonios" class="hover:text-blue-600 text-slate-600 transition">Testimonios</a>
             </div>
             <a href="#reserva" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-semibold transition shadow-md hover:shadow-lg">
                 Reservar Ahora
@@ -38,18 +40,19 @@
     <header id="inicio" class="bg-gradient-to-r from-blue-50 to-indigo-50 py-16 md:py-24 px-4">
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             <div class="space-y-6 text-center md:text-left">
-                <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-3 py-1 rounded-full">¡Tu hogar impecable hoy!</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-3 py-1 rounded-full">✨ Confianza, brillo y puntualidad garantizados</span>
+                <!-- Titular del Hero Banner renovado y más atractivo -->
                 <h1 class="text-4xl md:text-5xl font-black text-slate-950 leading-tight">
-                    Disfruta de tu tiempo libre, nosotros nos encargamos de la limpieza.
+                    Regresa a un hogar impecable sin mover un solo dedo.
                 </h1>
                 <p class="text-lg text-slate-600">
-                    Servicio de limpieza profesional a domicilio. Confiable, rápido y adaptado a tus necesidades en Lima.
+                    Delegar la limpieza nunca fue tan seguro y sencillo. Nos encargamos de que cada rincón de tu casa resplandezca para que tú solo te preocupes por descansar.
                 </p>
                 <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
                     <a href="#reserva" class="bg-blue-600 hover:bg-blue-700 text-white text-center px-8 py-3.5 rounded-xl font-bold transition shadow-lg">
                         Agendar Servicio
                     </a>
-                    <a href="#servicios" class="bg-white hover:bg-slate-100 text-slate-800 text-center px-8 py-3.5 rounded-xl font-bold transition border border-slate-200">
+                    <a href="servicios.html" class="bg-white hover:bg-slate-100 text-slate-800 text-center px-8 py-3.5 rounded-xl font-bold transition border border-slate-200">
                         Ver Servicios
                     </a>
                 </div>
@@ -98,31 +101,55 @@
         
         <div class="grid md:grid-cols-3 gap-8">
             <!-- Servicio 1 -->
-            <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:shadow-lg transition">
-                <div class="bg-blue-100 text-blue-600 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
-                    <i data-lucide="home" class="w-6 h-6"></i>
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:shadow-lg transition flex flex-col justify-between">
+                <div>
+                    <div class="bg-blue-100 text-blue-600 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
+                        <i data-lucide="home" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Limpieza Express</h3>
+                    <p class="text-slate-600 mb-4">Ideal para mantener tu casa reluciente semana a semana. Polvo, pisos, baño y cocina básica.</p>
                 </div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2">Limpieza Express</h3>
-                <p class="text-slate-600 mb-4">Ideal para mantener tu casa reluciente semana a semana. Polvo, pisos, baño y cocina básica.</p>
-                <span class="text-blue-600 font-semibold text-sm">Desde S/ 69</span>
+                <div class="mt-4 flex justify-between items-center">
+                    <span class="text-blue-600 font-semibold text-sm">Desde S/ 69</span>
+                    <a href="servicios.html#detalles-servicios" class="text-xs text-blue-500 hover:underline flex items-center space-x-1">
+                        <span>Saber más</span>
+                        <i data-lucide="arrow-right" class="w-3 h-3"></i>
+                    </a>
+                </div>
             </div>
             <!-- Servicio 2 -->
-            <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:shadow-lg transition">
-                <div class="bg-indigo-100 text-indigo-600 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
-                    <i data-lucide="sparkle" class="w-6 h-6"></i>
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:shadow-lg transition flex flex-col justify-between">
+                <div>
+                    <div class="bg-indigo-100 text-indigo-600 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
+                        <i data-lucide="sparkle" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Limpieza Profunda</h3>
+                    <p class="text-slate-600 mb-4">Para hogares que requieren atención al detalle: desinfección interna de electrodomésticos, vidrios y esquinas difíciles.</p>
                 </div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2">Limpieza Profunda</h3>
-                <p class="text-slate-600 mb-4">Para hogares que requieren atención al detalle: desinfección interna de electrodomésticos, vidrios y esquinas difíciles.</p>
-                <span class="text-indigo-600 font-semibold text-sm">Desde S/ 149</span>
+                <div class="mt-4 flex justify-between items-center">
+                    <span class="text-indigo-600 font-semibold text-sm">Desde S/ 149</span>
+                    <a href="servicios.html#detalles-servicios" class="text-xs text-indigo-500 hover:underline flex items-center space-x-1">
+                        <span>Saber más</span>
+                        <i data-lucide="arrow-right" class="w-3 h-3"></i>
+                    </a>
+                </div>
             </div>
             <!-- Servicio 3 -->
-            <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:shadow-lg transition">
-                <div class="bg-teal-100 text-teal-600 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
-                    <i data-lucide="truck" class="w-6 h-6"></i>
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:shadow-lg transition flex flex-col justify-between">
+                <div>
+                    <div class="bg-teal-100 text-teal-600 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
+                        <i data-lucide="truck" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Mudanza o Fin de Obra</h3>
+                    <p class="text-slate-600 mb-4">Dejamos tu nuevo hogar impecable antes de que te mudes, o removemos todo el polvo tras una remodelación.</p>
                 </div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2">Mudanza o Fin de Obra</h3>
-                <p class="text-slate-600 mb-4">Dejamos tu nuevo hogar impecable antes de que te mudes, o removemos todo el polvo tras una remodelación.</p>
-                <span class="text-teal-600 font-semibold text-sm">Previa Cotización</span>
+                <div class="mt-4 flex justify-between items-center">
+                    <span class="text-teal-600 font-semibold text-sm">Previa Cotización</span>
+                    <a href="servicios.html#detalles-servicios" class="text-xs text-teal-500 hover:underline flex items-center space-x-1">
+                        <span>Saber más</span>
+                        <i data-lucide="arrow-right" class="w-3 h-3"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </section>

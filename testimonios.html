@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonios - Limpieza Estrella</title>
+    <!-- Tailwind CSS para un diseño moderno -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Iconos de Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- NAV BAR -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i data-lucide="sparkles" class="text-blue-500 w-8 h-8"></i>
+                <span class="text-xl font-bold text-slate-900">Limpieza Estrella</span>
+            </div>
+            <div class="hidden md:flex space-x-6 font-medium">
+                <a href="index.html" class="hover:text-blue-600 text-slate-600 transition">Inicio</a>
+                <a href="#testimonios" class="text-blue-600 font-semibold transition">Testimonios</a>
+            </div>
+            <a href="index.html#reserva" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-semibold transition shadow-md hover:shadow-lg">
+                Reservar Ahora
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO DE TESTIMONIOS -->
+    <header class="bg-gradient-to-r from-blue-50 to-indigo-50 py-16 px-4 text-center">
+        <div class="max-w-3xl mx-auto space-y-4">
+            <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Experiencias reales</span>
+            <h1 class="text-4xl md:text-5xl font-black text-slate-950 leading-tight">La voz de nuestros clientes</h1>
+            <p class="text-lg text-slate-600">
+                Nos esforzamos cada día por ofrecer el mejor servicio de limpieza a domicilio. Mira lo que opinan quienes ya confían en nosotros.
+            </p>
+        </div>
+    </header>
+
+    <!-- GRID DE TESTIMONIOS -->
+    <section id="testimonios" class="py-16 px-4 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Testimonio 1 -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center space-x-1 text-yellow-400 mb-4">
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    </div>
+                    <p class="text-slate-600 italic mb-6">"¡Increíble servicio! Puntuales, muy detallistas y sumamente educados. Definitivamente los contrataré de forma recurrente."</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-950">María Fernanda R.</h4>
+                    <span class="text-xs text-slate-400">Miraflores, Lima</span>
+                </div>
+            </div>
+
+            <!-- Testimonio 2 -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center space-x-1 text-yellow-400 mb-4">
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    </div>
+                    <p class="text-slate-600 italic mb-6">"Espectacular. Tenía una mudanza encima y me salvaron la vida. El departamento quedó oliendo a limpio y no encontré un solo rastro de polvo."</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-950">Carlos M.</h4>
+                    <span class="text-xs text-slate-400">Santiago de Surco</span>
+                </div>
+            </div>
+
+            <!-- Testimonio 3 -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center space-x-1 text-yellow-400 mb-4">
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    </div>
+                    <p class="text-slate-600 italic mb-6">"Excelente atención de inicio a fin. Poder personalizar los datos de mi casa en el formulario y coordinar al instante me ahorró muchísimo tiempo."</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-950">Lucía T.</h4>
+                    <span class="text-xs text-slate-400">San Borja</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULARIO DE NUEVO TESTIMONIO -->
+    <section class="bg-slate-100 py-16 px-4">
+        <div class="max-w-2xl mx-auto bg-white rounded-3xl shadow-xl border border-slate-100 p-8 md:p-12">
+            <div class="text-center mb-8">
+                <h3 class="text-2xl font-bold text-slate-900 mb-2">¿Ya probaste nuestro servicio?</h3>
+                <p class="text-slate-600 text-sm">Déjanos tu opinión. Nos ayuda muchísimo a seguir mejorando para ti.</p>
+            </div>
+
+            <form id="testimoniosForm" class="space-y-5">
+                <!-- Alerta de estado -->
+                <div id="formFeedback" class="hidden p-4 rounded-xl text-sm font-semibold text-center"></div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label for="firstname" class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">Nombre *</label>
+                        <input type="text" id="firstname" name="firstname" required class="w-full border-b border-slate-300 focus:border-blue-600 outline-none py-2 text-sm bg-transparent transition" placeholder="Ej. Ana">
+                    </div>
+                    <div>
+                        <label for="lastname" class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">Apellido *</label>
+                        <input type="text" id="lastname" name="lastname" required class="w-full border-b border-slate-300 focus:border-blue-600 outline-none py-2 text-sm bg-transparent transition" placeholder="Ej. Ramos">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="email" class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">Correo Electrónico *</label>
+                    <input type="email" id="email" name="email" required class="w-full border-b border-slate-300 focus:border-blue-600 outline-none py-2 text-sm bg-transparent transition" placeholder="Ej. ana@correo.com">
+                </div>
+
+                <div>
+                    <label for="phone" class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">Celular / Teléfono *</label>
+                    <input type="tel" id="phone" name="phone" required class="w-full border-b border-slate-300 focus:border-blue-600 outline-none py-2 text-sm bg-transparent transition" placeholder="Ej. +51987654321">
+                </div>
+
+                <div>
+                    <label for="message" class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">Tu Comentario *</label>
+                    <textarea id="message" name="message" rows="4" required class="w-full border-b border-slate-300 focus:border-blue-600 outline-none py-2 text-sm resize-none bg-transparent transition" placeholder="Cuéntanos qué tal fue tu experiencia con nuestro personal de limpieza..."></textarea>
+                </div>
+
+                <button type="submit" id="submitBtn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-6 rounded-xl transition shadow-md hover:shadow-lg flex items-center justify-center space-x-2">
+                    <i data-lucide="message-square-plus" class="w-5 h-5"></i>
+                    <span>Enviar mi Opinión</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-12 px-4 text-center border-t border-slate-800">
+        <div class="max-w-6xl mx-auto space-y-4">
+            <div class="flex justify-center items-center space-x-2 text-white">
+                <i data-lucide="sparkles" class="text-blue-500 w-6 h-6"></i>
+                <span class="text-lg font-bold">Limpieza Estrella</span>
+            </div>
+            <p class="text-sm">© 2026 Limpieza Estrella. Todos los derechos reservados. Lima, Perú.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script>
+        // Inicializar iconos de Lucide
+        lucide.createIcons();
+
+        // Envío directo utilizando el portalId y formId proporcionados
+        document.getElementById('testimoniosForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const portalId = "51750879";
+            const formId = "de4b032a-d9ee-441a-91bc-941d0271c723";
+            const endpoint = `https://api.hsforms.com/submissions/v3/integration/submit/${portalId}/${formId}`;
+
+            const submitBtn = document.getElementById('submitBtn');
+            const feedback = document.getElementById('formFeedback');
+
+            // Cambiar estado del botón
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = `<span>Enviando...</span>`;
+
+            // Construcción del Payload con los campos nativos de HubSpot
+            const payload = {
+                fields: [
+                    { name: "firstname", value: document.getElementById('firstname').value },
+                    { name: "lastname", value: document.getElementById('lastname').value },
+                    { name: "email", value: document.getElementById('email').value },
+                    { name: "phone", value: document.getElementById('phone').value },
+                    { name: "message", value: document.getElementById('message').value }
+                ],
+                context: {
+                    pageUri: window.location.href,
+                    pageName: document.title
+                }
+            };
+
+            try {
+                const response = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                if (response.ok) {
+                    feedback.className = "p-4 rounded-xl text-sm font-semibold text-center bg-green-100 text-green-800";
+                    feedback.textContent = "¡Muchas gracias! Tu testimonio ha sido enviado correctamente.";
+                    feedback.classList.remove('hidden');
+                    document.getElementById('testimoniosForm').reset();
+                } else {
+                    throw new Error('Error en el envío');
+                }
+            } catch (error) {
+                feedback.className = "p-4 rounded-xl text-sm font-semibold text-center bg-red-100 text-red-800";
+                feedback.textContent = "Hubo un problema al procesar tu comentario. Por favor, inténtalo de nuevo.";
+                feedback.classList.remove('hidden');
+                console.error(error);
+            } finally {
+                // Restaurar botón
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = `<i data-lucide="message-square-plus" class="w-5 h-5"></i><span>Enviar mi Opinión</span>`;
+                lucide.createIcons();
+            }
+        });
+    </script>
+</body>
+</html>

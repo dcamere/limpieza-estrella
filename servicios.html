@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Servicios de Limpieza - Limpieza Estrella</title>
+    <!-- Tailwind CSS para un diseño moderno y rápido -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Iconos de Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- NAV BAR -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i data-lucide="sparkles" class="text-blue-500 w-8 h-8"></i>
+                <span class="text-xl font-bold text-slate-900">Limpieza Estrella</span>
+            </div>
+            <div class="hidden md:flex space-x-6 font-medium">
+                <a href="index.html#inicio" class="hover:text-blue-600 transition">Inicio</a>
+                <a href="#detalles-servicios" class="text-blue-600 font-semibold">Servicios</a>
+                <a href="index.html#testimonios" class="hover:text-blue-600 transition">Testimonios</a>
+            </div>
+            <a href="index.html#reserva" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-semibold transition shadow-md hover:shadow-lg">
+                Reservar Ahora
+            </a>
+        </div>
+    </nav>
+
+    <!-- HEADER / HERO DE SERVICIOS -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 py-20 px-4 text-white text-center">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <span class="bg-blue-500/30 text-blue-100 text-sm font-semibold px-4 py-1.5 rounded-full uppercase tracking-wider">Soluciones a Medida</span>
+            <h1 class="text-4xl md:text-5xl font-black leading-tight">Servicios de Limpieza Profesional</h1>
+            <p class="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto">
+                Diseñados para devolverte el tiempo libre que mereces. Personal capacitado, de confianza y con resultados garantizados.
+            </p>
+        </div>
+    </header>
+
+    <!-- DETALLES DE SERVICIOS -->
+    <section id="detalles-servicios" class="py-20 px-4 max-w-6xl mx-auto space-y-24">
+        
+        <!-- SERVICIO 1: EXPRESS -->
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <div class="bg-blue-100 text-blue-600 w-12 h-12 rounded-xl flex items-center justify-center">
+                    <i data-lucide="home" class="w-6 h-6"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-slate-900">Limpieza Express</h2>
+                <p class="text-slate-600 leading-relaxed">
+                    Nuestro servicio regular está pensado para mantener el orden, la frescura y la higiene constante de tu hogar semana tras semana. Es perfecto para quienes necesitan apoyo continuo en las tareas más demandantes del día a día.
+                </p>
+                <div class="space-y-3">
+                    <h4 class="font-bold text-slate-900 text-sm uppercase tracking-wider">¿Qué incluye este servicio?</h4>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-slate-600">
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-green-500 w-4 h-4"></i>
+                            <span>Aspirado y trapeado de pisos</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-green-500 w-4 h-4"></i>
+                            <span>Limpieza de polvo superficial</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-green-500 w-4 h-4"></i>
+                            <span>Desinfección de baños</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-green-500 w-4 h-4"></i>
+                            <span>Limpieza externa de cocina</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-green-500 w-4 h-4"></i>
+                            <span>Tendido de camas</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-green-500 w-4 h-4"></i>
+                            <span>Retiro de basura doméstica</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pt-4">
+                    <a href="index.html#reserva" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3 rounded-xl transition shadow">
+                        Reservar Express
+                    </a>
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-lg space-y-6">
+                <h3 class="text-xl font-bold text-slate-900">Tarifas Estimadas</h3>
+                <div class="divide-y divide-slate-100">
+                    <div class="py-3 flex justify-between">
+                        <span class="text-slate-600">Departamentos (1-2 hab)</span>
+                        <span class="font-bold text-slate-900">S/ 69</span>
+                    </div>
+                    <div class="py-3 flex justify-between">
+                        <span class="text-slate-600">Casas Pequeñas (3 hab)</span>
+                        <span class="font-bold text-slate-900">S/ 99</span>
+                    </div>
+                    <div class="py-3 flex justify-between">
+                        <span class="text-slate-600">Casas Medianas (4+ hab)</span>
+                        <span class="font-bold text-slate-900">Desde S/ 129</span>
+                    </div>
+                </div>
+                <p class="text-xs text-slate-400 italic">Nota: Los precios son referenciales y pueden variar según los metros cuadrados totales de la propiedad.</p>
+            </div>
+        </div>
+
+        <!-- SERVICIO 2: PROFUNDA -->
+        <div class="grid md:grid-cols-2 gap-12 items-center md:flex-row-reverse">
+            <!-- Columna de imagen/tarjeta tarifas a la izquierda en pantallas grandes -->
+            <div class="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-lg space-y-6 md:order-2">
+                <h3 class="text-xl font-bold text-slate-900">Tarifas Estimadas</h3>
+                <div class="divide-y divide-slate-100">
+                    <div class="py-3 flex justify-between">
+                        <span class="text-slate-600">Departamentos (1-2 hab)</span>
+                        <span class="font-bold text-slate-900">S/ 149</span>
+                    </div>
+                    <div class="py-3 flex justify-between">
+                        <span class="text-slate-600">Casas Pequeñas (3 hab)</span>
+                        <span class="font-bold text-slate-900">S/ 199</span>
+                    </div>
+                    <div class="py-3 flex justify-between">
+                        <span class="text-slate-600">Casas Medianas (4+ hab)</span>
+                        <span class="font-bold text-slate-900">Desde S/ 259</span>
+                    </div>
+                </div>
+                <p class="text-xs text-slate-400 italic">Nota: Incluye insumos y herramientas de limpieza especializados.</p>
+            </div>
+            <div class="space-y-6 md:order-1">
+                <div class="bg-indigo-100 text-indigo-600 w-12 h-12 rounded-xl flex items-center justify-center">
+                    <i data-lucide="sparkles" class="w-6 h-6"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-slate-900">Limpieza Profunda</h2>
+                <p class="text-slate-600 leading-relaxed">
+                    Un servicio riguroso enfocado en limpiar esos rincones que no se atienden de forma habitual. Es ideal realizarlo al menos una vez al mes o antes de un evento importante para garantizar una desinfección total de cada ambiente.
+                </p>
+                <div class="space-y-3">
+                    <h4 class="font-bold text-slate-900 text-sm uppercase tracking-wider">¿Qué incluye este servicio?</h4>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-slate-600">
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-indigo-500 w-4 h-4"></i>
+                            <span>Todo lo de la Limpieza Express</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-indigo-500 w-4 h-4"></i>
+                            <span>Lavado interior de microondas y horno</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-indigo-500 w-4 h-4"></i>
+                            <span>Limpieza profunda de ventanas y rieles</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-indigo-500 w-4 h-4"></i>
+                            <span>Desinfección profunda de azulejos</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-indigo-500 w-4 h-4"></i>
+                            <span>Remoción de sarro en griferías</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-indigo-500 w-4 h-4"></i>
+                            <span>Limpieza detallada detrás de muebles</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pt-4">
+                    <a href="index.html#reserva" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-6 py-3 rounded-xl transition shadow">
+                        Reservar Profunda
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICIO 3: MUDANZA O FIN DE OBRA -->
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <div class="bg-teal-100 text-teal-600 w-12 h-12 rounded-xl flex items-center justify-center">
+                    <i data-lucide="truck" class="w-6 h-6"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-slate-900">Mudanza o Fin de Obra</h2>
+                <p class="text-slate-600 leading-relaxed">
+                    Mudar de casa o terminar una remodelación ya es lo suficientemente estresante. Deja que nosotros nos encarguemos de eliminar todo el rastro de polvo fino de construcción, restos de pintura y suciedad para que solo te enfoques en disfrutar de tu nuevo espacio.
+                </p>
+                <div class="space-y-3">
+                    <h4 class="font-bold text-slate-900 text-sm uppercase tracking-wider">¿Qué incluye este servicio?</h4>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-slate-600">
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-teal-500 w-4 h-4"></i>
+                            <span>Remoción de polvo de construcción</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-teal-500 w-4 h-4"></i>
+                            <span>Limpieza interior y exterior de clósets</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-teal-500 w-4 h-4"></i>
+                            <span>Remoción de restos de pintura en pisos</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-teal-500 w-4 h-4"></i>
+                            <span>Limpieza de zócalos y marcos de puertas</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="text-teal-500 w-4 h-4"></i>
+                            <span>Lavado profundo de terrazas o patios</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pt-4">
+                    <a href="index.html#reserva" class="inline-block bg-teal-600 hover:bg-teal-700 text-white font-bold px-6 py-3 rounded-xl transition shadow">
+                        Solicitar Cotización
+                    </a>
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-lg space-y-6">
+                <h3 class="text-xl font-bold text-slate-900">Cotización Personalizada</h3>
+                <p class="text-slate-600 text-sm">
+                    Debido a las particularidades de las obras y mudanzas, este servicio requiere una evaluación de tamaño y nivel de suciedad para darte un precio justo y cerrado.
+                </p>
+                <div class="bg-teal-50 p-4 rounded-xl border border-teal-100 flex items-start space-x-3 text-teal-800 text-sm">
+                    <i data-lucide="info" class="w-5 h-5 mt-0.5 shrink-0"></i>
+                    <span>Te garantizamos el retiro total del polvo fino de yeso y cemento, el cual suele ser muy difícil de quitar con métodos tradicionales.</span>
+                </div>
+                <a href="index.html#reserva" class="w-full text-center block bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 rounded-xl transition">
+                    Contactar con un asesor
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES (FAQ) -->
+    <section class="bg-slate-100 py-20 px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Preguntas Frecuentes</h2>
+                <p class="text-slate-600">Todo lo que necesitas saber antes de programar tu servicio.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- Pregunta 1 -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+                    <button class="faq-toggle w-full px-6 py-4 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50 transition">
+                        <span>¿Debo proveer los insumos y materiales de limpieza?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transform transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+                        Para la Limpieza Express, normalmente utilizamos los materiales que tienes en casa. Sin embargo, si deseas que nuestro personal lleve los insumos, puedes solicitarlo por un costo adicional. En el caso de la Limpieza Profunda y Mudanzas, nosotros llevamos todos los equipos y químicos profesionales incluidos.
+                    </div>
+                </div>
+
+                <!-- Pregunta 2 -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+                    <button class="faq-toggle w-full px-6 py-4 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50 transition">
+                        <span>¿Su personal está asegurado y es de confianza?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transform transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+                        Absolutamente. Todo nuestro personal pasa por una estricta verificación de antecedentes penales, judiciales y policiales, además de pruebas de confianza. Asimismo, contamos con un seguro de responsabilidad civil para tu tranquilidad ante cualquier imprevisto.
+                    </div>
+                </div>
+
+                <!-- Pregunta 3 -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+                    <button class="faq-toggle w-full px-6 py-4 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50 transition">
+                        <span>¿Con cuánta anticipación debo reservar?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transform transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+                        Recomendamos agendar tu servicio con al menos 24 a 48 horas de anticipación para asegurar la disponibilidad del personal en el horario de tu preferencia. Para fines de semana, te aconsejamos reservar con 3 días de antelación.
+                    </div>
+                </div>
+
+                <!-- Pregunta 4 -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+                    <button class="faq-toggle w-full px-6 py-4 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50 transition">
+                        <span>¿Cómo realizo el pago?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transform transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
+                        Aceptamos transferencias bancarias directas (BCP, BBVA, Interbank) y pagos mediante billeteras digitales como Yape o Plin. El pago se realiza una vez que finaliza y se aprueba la limpieza.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-12 px-4 text-center border-t border-slate-800">
+        <div class="max-w-6xl mx-auto space-y-4">
+            <div class="flex justify-center items-center space-x-2 text-white">
+                <i data-lucide="sparkles" class="text-blue-500 w-6 h-6"></i>
+                <span class="text-lg font-bold">Limpieza Estrella</span>
+            </div>
+            <p class="text-sm">© 2026 Limpieza Estrella. Todos los derechos reservados. Lima, Perú.</p>
+        </div>
+    </footer>
+
+    <!-- LOGIC SCRIPTS -->
+    <script>
+        // Inicializar iconos de Lucide
+        lucide.createIcons();
+
+        // Lógica de Acordeón para FAQ
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('[data-lucide="chevron-down"]');
+                
+                // Alternar visibilidad de la respuesta
+                content.classList.toggle('hidden');
+                
+                // Rotar el icono de flecha
+                if (content.classList.contains('hidden')) {
+                    icon.style.transform = 'rotate(0deg)';
+                } else {
+                    icon.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

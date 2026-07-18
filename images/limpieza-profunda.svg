@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Limpieza profunda de cocina</title>
+  <desc id="desc">Ilustración de una cocina brillante con guantes, paño y atomizador.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef2ff"/><stop offset="1" stop-color="#dbeafe"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#312e81" flood-opacity=".15"/></filter>
+  </defs>
+  <rect width="900" height="560" rx="40" fill="url(#bg)"/>
+  <rect x="85" y="72" width="730" height="346" rx="28" fill="#fff" filter="url(#s)"/>
+  <rect x="115" y="103" width="196" height="132" rx="14" fill="#c7d2fe"/>
+  <rect x="333" y="103" width="196" height="132" rx="14" fill="#bfdbfe"/>
+  <rect x="551" y="103" width="234" height="132" rx="14" fill="#dbeafe"/>
+  <rect x="115" y="261" width="670" height="126" rx="16" fill="#f8fafc"/>
+  <path d="M115 296h670" stroke="#cbd5e1" stroke-width="8"/>
+  <rect x="395" y="275" width="115" height="76" rx="12" fill="#94a3b8"/>
+  <circle cx="425" cy="313" r="9" fill="#e2e8f0"/><circle cx="480" cy="313" r="9" fill="#e2e8f0"/>
+  <g transform="translate(146 347)" filter="url(#s)">
+    <path d="M84 0h86l20 154H62Z" fill="#2563eb"/>
+    <rect x="105" y="-45" width="38" height="62" rx="8" fill="#60a5fa"/>
+    <path d="M96-40h85v20H96z" fill="#1d4ed8"/>
+    <rect x="84" y="50" width="84" height="54" rx="12" fill="#dbeafe"/>
+  </g>
+  <g transform="translate(352 405)">
+    <path d="M0 55c38-52 98-72 178-56l-23 79C91 67 43 78 10 105Z" fill="#facc15"/>
+    <path d="M24 63c45-37 91-48 139-36" stroke="#fef08a" stroke-width="13" stroke-linecap="round"/>
+  </g>
+  <g fill="#fff">
+    <path d="M738 52l10 23 24 10-24 10-10 24-10-24-23-10 23-10Z"/>
+    <path d="M610 256l7 16 17 7-17 7-7 17-7-17-16-7 16-7Z"/>
+  </g>
+</svg>
